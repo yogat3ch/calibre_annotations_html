@@ -1,0 +1,814 @@
+﻿{
+    "annotations": [
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/8/1:298",
+            "format": "EPUB",
+            "highlighted_text": "“If you want to understand your mind, sit down and observe it.”",
+            "notes": "Anagārika Munindra",
+            "spine_index": 4,
+            "spine_name": "OEBPS/xhtml/Preface.html",
+            "start_cfi": "/2/4/8/1:235",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T00:45:46.822Z",
+            "toc_family_titles": [
+                "Preface"
+            ],
+            "type": "highlight",
+            "uuid": "_k1E-JtJ4HKiu_0XQ6gUEA"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/46/1:657",
+            "format": "EPUB",
+            "highlighted_text": "Maybe when the Buddha repeats certain phrases over and over again, he is trying to tell us something: that these are important qualities of mind to cultivate and strengthen in our practice and in our lives. ",
+            "spine_index": 5,
+            "spine_name": "OEBPS/xhtml/Introduction.html",
+            "start_cfi": "/2/4/46/1:450",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T00:54:17.215Z",
+            "toc_family_titles": [
+                "Introduction"
+            ],
+            "type": "highlight",
+            "uuid": "ydQDpffz2EVPPGipaP_iyQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/12/1:643",
+            "format": "EPUB",
+            "highlighted_text": "What are the four? Here, bhikkhus, in regard to the body a bhikkhu abides contemplating the body, ardent, clearly knowing, and mindful, free from desires and discontent in regard to the world. In regard to feelings he abides contemplating feelings, ardent, clearly knowing, and mindful, free from desires and discontent in regard to the world. In regard to the mind he abides contemplating the mind, ardent, clearly knowing, and mindful, free from desires and discontent in regard to the world. In regard to dhammas he abides contemplating dhammas, ardent, clearly knowing, and mindful, free from desires and discontent in regard to the world.",
+            "notes": "The Four Foundations",
+            "spine_index": 7,
+            "spine_name": "OEBPS/xhtml/Chapter01.html",
+            "start_cfi": "/2/4/12/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T00:55:25.745Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "1. Ardency: The Long-Enduring Mind"
+            ],
+            "type": "highlight",
+            "uuid": "ibujPNxZYsPYf-pzAKAaZg"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/14/1:571",
+            "format": "EPUB",
+            "highlighted_text": "Ardent implies a balanced and sustained application of effort. But ardent also suggests warmth of feeling, a passionate and strong enthusiasm or devotion because we realize the value and importance of something. When the Buddha says that a bhikkhu (all of us on the path) abides ardently, he is urging us to take great care, with continuity and perseverance, in what we do",
+            "spine_index": 7,
+            "spine_name": "OEBPS/xhtml/Chapter01.html",
+            "start_cfi": "/2/4/14/2/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T00:55:56.807Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "1. Ardency: The Long-Enduring Mind"
+            ],
+            "type": "highlight",
+            "uuid": "CvK9KhIIsdwAGP_p0as7TQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/22/1:131",
+            "format": "EPUB",
+            "highlighted_text": "One way to cultivate ardency is to reflect on the purpose of our practice, realizing that the Dharma is a jewel of priceless value.",
+            "spine_index": 7,
+            "spine_name": "OEBPS/xhtml/Chapter01.html",
+            "start_cfi": "/2/4/22/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T00:56:29.116Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "1. Ardency: The Long-Enduring Mind"
+            ],
+            "type": "highlight",
+            "uuid": "H2X_AaqmK8D3ZzRQ9h3D6Q"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/22/1:449",
+            "format": "EPUB",
+            "highlighted_text": "understanding the mind is the same as understanding the Dharma, and that realizing the deepest truths of the mind is the attainment of awakening.",
+            "spine_index": 7,
+            "spine_name": "OEBPS/xhtml/Chapter01.html",
+            "start_cfi": "/2/4/22/1:304",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T00:56:52.051Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "1. Ardency: The Long-Enduring Mind"
+            ],
+            "type": "highlight",
+            "uuid": "pOyO94K3m-jpAgjVnkSSyQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/26/6/2/1:1",
+            "format": "EPUB",
+            "highlighted_text": "Ask yourself how many of the billions of inhabitants of this planet have any idea of how rare it is to have been born as a human being. How many of those who understand the rarity of human birth ever think of using that chance to practice the Dharma? How many of those who think of practice actually do? How many of those who start continue? . . . But once you see the unique opportunity that human life can bring, you will definitely direct all your energy into reaping its true worth by putting the Dharma into practice.2",
+            "spine_index": 7,
+            "spine_name": "OEBPS/xhtml/Chapter01.html",
+            "start_cfi": "/2/4/26/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T00:57:38.226Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "1. Ardency: The Long-Enduring Mind"
+            ],
+            "type": "highlight",
+            "uuid": "SiCeGsxcTmH9CqJ6EUCg4g"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/184/1:455",
+            "format": "EPUB",
+            "highlighted_text": "The third reflection that arouses ardor in our practice is the understanding of the law of karma. This is the fundamental and essential understanding that all of our volitional actions—of body, speech, and mind — bear fruit depending on the motivation associated with them. Actions rooted in greed, hatred, or ignorance bring unpleasant results. Actions rooted in nongreed, nonhatred, and nondelusion bring many different kinds of happiness and wellbeing.",
+            "spine_index": 7,
+            "spine_name": "OEBPS/xhtml/Chapter01.html",
+            "start_cfi": "/2/4/184/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:00:32.073Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "1. Ardency: The Long-Enduring Mind"
+            ],
+            "type": "highlight",
+            "uuid": "oP8qX4eC4JBMtTs2keYfWQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/194/1:413",
+            "format": "EPUB",
+            "highlighted_text": "As we’re about to act, or when thoughts or emotions are predominant, do we remember to investigate and reflect on our motivation? Do we ask ourselves, “Is this act or mind state skillful or unskillful? Is this something to cultivate or abandon? Where is this motivation leading? Do I want to go there?”",
+            "spine_index": 7,
+            "spine_name": "OEBPS/xhtml/Chapter01.html",
+            "start_cfi": "/2/4/194/1:111",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:02:14.799Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "1. Ardency: The Long-Enduring Mind"
+            ],
+            "type": "highlight",
+            "uuid": "Wbh2ZknxFP4Ictu1Tn6sKw"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/12/1:328",
+            "format": "EPUB",
+            "highlighted_text": "With clear comprehension, we know the purpose and appropriateness of what we’re doing; we understand the motivations behind our actions.",
+            "notes": "SAMPAJAÑÑA ",
+            "spine_index": 8,
+            "spine_name": "OEBPS/xhtml/Chapter02.html",
+            "start_cfi": "/2/4/12/1:192",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:03:16.719Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "2. Clearly Knowing: Cultivating Clear Comprehension"
+            ],
+            "type": "highlight",
+            "uuid": "WavXRwDtfLEzAIuGcnqGeQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/14/1:569",
+            "format": "EPUB",
+            "highlighted_text": "How does our practice benefit others? How does feeling our breath or taking a mindful step help anyone else? It happens in several ways. The more we understand our own minds, the more we understand everyone else. We increasingly feel the commonality of our human condition, of what creates suffering and how we can be free.",
+            "spine_index": 8,
+            "spine_name": "OEBPS/xhtml/Chapter02.html",
+            "start_cfi": "/2/4/14/1:250",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:19:37.315Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "2. Clearly Knowing: Cultivating Clear Comprehension"
+            ],
+            "type": "highlight",
+            "uuid": "zSVXSmd97kFRI9n2ldqfSQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/34/1:142",
+            "format": "EPUB",
+            "highlighted_text": "“the five spiritual faculties”: faith, energy, mindfulness, concentration, and wisdom",
+            "notes": "The Five Spiritual Faculties\n",
+            "spine_index": 9,
+            "spine_name": "OEBPS/xhtml/Chapter03.html",
+            "start_cfi": "/2/4/34/1:57",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:23:58.868Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "3. Mindfulness: The Gateway to Wisdom"
+            ],
+            "type": "highlight",
+            "uuid": "lw4FFrzBeru-HRad7pXUTQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/36/1:335",
+            "format": "EPUB",
+            "highlighted_text": "Mindfulness makes us aware when any of them are deficient or in excess; for example, it balances faith and wisdom, energy and concentration. When we have too much faith, we can become dogmatic, attached to our own views. And we can see all too often how this blind belief leads to so much conflict and suffering in the world.\n\nWhen faith is not balanced with wisdom, we can also become overly enthusiastic about our meditation experiences. There is a state called “pseudo-nirvāna.” This is when our insight is developing, but in our enthusiasm we forget to be mindful, and then, because of our attachment to these very states, they become corruptions of insight.",
+            "notes": "Balancing the five spiritual faculties",
+            "spine_index": 9,
+            "spine_name": "OEBPS/xhtml/Chapter03.html",
+            "start_cfi": "/2/4/34/1:261",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:24:47.332Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "3. Mindfulness: The Gateway to Wisdom"
+            ],
+            "type": "highlight",
+            "uuid": "ioxhgQIDbkPBPF9ZS0b0Kg"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/46/1:660",
+            "format": "EPUB",
+            "highlighted_text": "our aim should be not to follow the heart but to train the heart. All of us have a mix of motivations; not everything in our hearts is wise or wholesome. The great power of mindful discernment allows us to abandon what is unwholesome and to cultivate the good. This discernment is of inestimable value for our happiness and wellbeing.",
+            "spine_index": 9,
+            "spine_name": "OEBPS/xhtml/Chapter03.html",
+            "start_cfi": "/2/4/46/1:326",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:26:21.461Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "3. Mindfulness: The Gateway to Wisdom"
+            ],
+            "type": "highlight",
+            "uuid": "BtOL3qO29gni6ZlCwmyDww"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/70/1:622",
+            "format": "EPUB",
+            "highlighted_text": "In the Dzogchen tradition, this is called fabricated mindfulness, and is similar, perhaps, to what in the Theravāda Abhidhamma is called prompted consciousness. This is when, either by reflection or determination of the will, we deliberately endeavor to generate a certain state. There is another kind of mindfulness that is unprompted. When it is well cultivated, it arises spontaneously through the force of its own momentum. No particular effort is required. It’s all just happening by itself. In this state of effortless awareness, we can further discern the presence or absence of a reference point of observation, a sense of someone observing or being mindful.",
+            "spine_index": 9,
+            "spine_name": "OEBPS/xhtml/Chapter03.html",
+            "start_cfi": "/2/4/70/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:29:38.959Z",
+            "toc_family_titles": [
+                "The Four Qualities of Mind",
+                "3. Mindfulness: The Gateway to Wisdom"
+            ],
+            "type": "highlight",
+            "uuid": "PMda6waR4C0NJ_RR3xz2Ug"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/16/4/2/1:1",
+            "format": "EPUB",
+            "highlighted_text": "“Bhikkhus, when anyone has not developed and cultivated mindfulness of the body, Māra finds an opportunity and a support. . . .”1\n\n“Bhikkhus, when anyone has developed and cultivated mindfulness of the body, Māra cannot find an opportunity or a support. . . .”2",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/14/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:37:57.206Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "Na0b3RGHVu4VlXyIGAlgbQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/20/1:632",
+            "format": "EPUB",
+            "highlighted_text": "In the midst of endless thought proliferation, of emotional storms, of energetic ups and downs, we can always come back to just this breath, just this step. So many times in my practice I was thankful that it was that simple. We can always just come back to the simplest aspect of what’s already here.",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/20/1:331",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:38:56.940Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "JvqLDLYqn9jErpR3H3QImg"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/32/1:522",
+            "format": "EPUB",
+            "highlighted_text": "Retiring to a physically secluded location, such as a retreat center or a cabin in the woods, would be ideal. But it could also mean establishing a place dedicated to practice right in our own home—a room, or even a corner of a room, where we create an environment of stillness and beauty.",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/32/1:233",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:39:34.905Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "AKjmj5KoiT8X0HhD3Ht7KA"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/42/1:238",
+            "format": "EPUB",
+            "highlighted_text": " the form becomes both the container and the expression of the awakened state",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/42/1:161",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:34:17.626Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "LDmD2t-4epU5ZMpHqHm25g"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/44/1:463",
+            "format": "EPUB",
+            "highlighted_text": "n both meditation and life, wise effort creates energy. We often think that we need energy to make effort. But the opposite can be just as true. Think of the times when you feel tired and sluggish and then go out for some exercise. Usually, you come back feeling alert and energized: effort creates energy.",
+            "notes": "Effort creates energy",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/44/1:157",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:35:04.412Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "xU9UgxM8IfmLLmuYQ5LMJg"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/62/1:386",
+            "format": "EPUB",
+            "highlighted_text": "It’s a moment’s reflection about our intention, rather than simply sitting down and settling into a perhaps familiar drift of thought and fantasy.",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/62/1:240",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:40:54.463Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "Dc1VrJEZlXRhONOLv8eS6g"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/66/6/2/1:1",
+            "format": "EPUB",
+            "highlighted_text": "[H]e seats himself cross-legged, sets his body erect, and establishes mindfulness in front of him. He does not occupy his mind with self-affliction, or the affliction of others, or the affliction of both; he sits with his mind set on his own welfare, on the welfare of others, and on the welfare of both, even on the welfare of the whole world.”6",
+            "notes": "Metta, Prayer",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/66/1:1",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:37:19.498Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "w3EF8OqD--a8OZYn0MLo7Q"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/76/1:446",
+            "format": "EPUB",
+            "highlighted_text": "Bhikkhus, when mindfulness of breathing is developed and cultivated, it is of great fruit and great benefit. When mindfulness of breathing is developed and cultivated, it fulfills the four foundations of mindfulness. When the four foundations of mindfulness are developed and cultivated, they fulfill the seven enlightenment factors. When the seven enlightenment factors are developed and cultivated, they fulfill true knowledge and deliverance.",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/76/1:1",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:42:05.455Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "lswJBEQ5rv_mS2jvwQYidA"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/78/1:310",
+            "format": "EPUB",
+            "highlighted_text": "it is a stabilizing factor at the time of death",
+            "notes": "The Breath",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/78/1:263",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:42:47.478Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "VyqABZV0Bo4a7G-h551euQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/100/1:173",
+            "format": "EPUB",
+            "highlighted_text": "an increasing level of intentionality in our practice as we broaden our awareness from the breath to the whole body.",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/100/1:57",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:41:29.103Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "9ln4An_UwWkVMaJnTOc2cQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/102/1:479",
+            "format": "EPUB",
+            "highlighted_text": "The second interpretation of “experiencing the whole body” is found in the Buddhist commentaries, which say that this phrase refers to the whole “breath body.” This means that we train experiencing the beginning, middle, and end of each breath",
+            "spine_index": 15,
+            "spine_name": "OEBPS/xhtml/Chapter07.html",
+            "start_cfi": "/2/4/102/1:236",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-04T01:41:40.029Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "7. Mindfulness of Breathing"
+            ],
+            "type": "highlight",
+            "uuid": "Ze3ejpniywRbV9tFjKnKTw"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/40/1:1063",
+            "format": "EPUB",
+            "highlighted_text": "All of this is summarized in the dharma statement, “Movement masks dukkha.” It’s worth investigating this to see for ourselves what drives the many movements we make during the day.",
+            "spine_index": 16,
+            "spine_name": "OEBPS/xhtml/Chapter08.html",
+            "start_cfi": "/2/4/40/1:882",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:54:35.007Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "8. Mindfulness of Postures"
+            ],
+            "type": "highlight",
+            "uuid": "zqwlw0UDkgaMCfHe8HTPiQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/44/1:607",
+            "format": "EPUB",
+            "highlighted_text": "We see that there’s no one behind this process to whom it is all happening, only the pairwise progression of knowing and object rolling on.",
+            "spine_index": 16,
+            "spine_name": "OEBPS/xhtml/Chapter08.html",
+            "start_cfi": "/2/4/44/1:468",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:56:55.962Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "8. Mindfulness of Postures"
+            ],
+            "type": "highlight",
+            "uuid": "aoi95OaghChLyqxeFNEsUg"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/52/1:214",
+            "format": "EPUB",
+            "highlighted_text": "The purpose of all our practice is to purify the mind of obstructive, unskillful states—in the Buddha’s words, “to abandon ill will and hatred, and to abide with a mind compassionate for the welfare of all beings.”",
+            "spine_index": 16,
+            "spine_name": "OEBPS/xhtml/Chapter08.html",
+            "start_cfi": "/2/4/52/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T00:59:50.132Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "8. Mindfulness of Postures"
+            ],
+            "type": "highlight",
+            "uuid": "583kJJ0S3oncsjpKWOc87g"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/12/1:278",
+            "format": "EPUB",
+            "highlighted_text": "“Clearly knowing,” the translation of the Pali word sampajañña, is sometimes translated as “clear comprehension.” Clearly knowing means seeing precisely or seeing thoroughly, with all of the five spiritual faculties (confidence, energy, mindfulness, concentration, and wisdom) in balance.",
+            "notes": "Sampajanna and the Five Spiritual Faculties",
+            "spine_index": 17,
+            "spine_name": "OEBPS/xhtml/Chapter09.html",
+            "start_cfi": "/2/4/12/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "blue"
+            },
+            "timestamp": "2025-05-12T01:02:37.781Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "9. Mindfulness of Activities"
+            ],
+            "type": "highlight",
+            "uuid": "VDms-m4EVJ1-0eVv1Zcd1g"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/20/1:163",
+            "format": "EPUB",
+            "highlighted_text": "The first way of training is clearly knowing the purpose of doing an action before we do it, understanding whether or not it is of benefit to ourselves and others.",
+            "notes": "Pace is critical",
+            "spine_index": 17,
+            "spine_name": "OEBPS/xhtml/Chapter09.html",
+            "start_cfi": "/2/4/20/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T01:03:18.368Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "9. Mindfulness of Activities"
+            ],
+            "type": "highlight",
+            "uuid": "JnnLL8FmsVikwPumc95gFA"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/20/1:687",
+            "format": "EPUB",
+            "highlighted_text": "Because our motivations are often subtle and hard to see—they are often mixed or are a series of conflicting motivations—it takes a lot of honesty, clarity, and mindfulness to see them clearly, to know the inner purpose behind our actions.",
+            "spine_index": 17,
+            "spine_name": "OEBPS/xhtml/Chapter09.html",
+            "start_cfi": "/2/4/20/1:448",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T01:03:38.093Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "9. Mindfulness of Activities"
+            ],
+            "type": "highlight",
+            "uuid": "uRUJ1EZCoP8M0Z333k7geA"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/26/1:693",
+            "format": "EPUB",
+            "highlighted_text": "We might be feeling tired or frustrated, and then this kindly voice arises in the mind: “I’ve done enough. I’ve been working really hard. Let me take a little rest.” Sometimes we do need rest, but sometimes the kindly voice is just that aspect of sloth and torpor that retreats from difficulties.",
+            "spine_index": 17,
+            "spine_name": "OEBPS/xhtml/Chapter09.html",
+            "start_cfi": "/2/4/26/1:397",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T01:05:42.056Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "9. Mindfulness of Activities"
+            ],
+            "type": "highlight",
+            "uuid": "ccHmdLN14kjxt1K-TpBDrg"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/28/1:302",
+            "format": "EPUB",
+            "highlighted_text": "This aspect of clear comprehension—seeing the purpose of our actions and whether they are of benefit or not—rests on our understanding the ethical dimensions of mindfulness. This is the discernment of wholesome or unwholesome mind states and actions, which lead respectively to happiness or suffering. ",
+            "spine_index": 17,
+            "spine_name": "OEBPS/xhtml/Chapter09.html",
+            "start_cfi": "/2/4/28/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T01:06:11.734Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "9. Mindfulness of Activities"
+            ],
+            "type": "highlight",
+            "uuid": "R392OG8V_YUBe0KuY4a6zA"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/48/1:706",
+            "format": "EPUB",
+            "highlighted_text": "The famous thirteenth-century Japanese Zen master Dogen expressed it this way in the Genjo Koan: “What is the way of the Buddha? It is to study the self. What is the study of the self? It is to forget the self. To forget the self is to be Enlightened by all things.”",
+            "spine_index": 17,
+            "spine_name": "OEBPS/xhtml/Chapter09.html",
+            "start_cfi": "/2/4/48/1:440",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "blue"
+            },
+            "timestamp": "2025-05-12T01:08:37.700Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "9. Mindfulness of Activities"
+            ],
+            "type": "highlight",
+            "uuid": "fXv2aiYhEK-3FwFJlcjAQA"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/58/1:547",
+            "format": "EPUB",
+            "highlighted_text": "In meditation, we move from the concept of body to the awareness of the body as a changing energy field. On this level, the sense of the body as being something solid and substantial disappears.",
+            "notes": "The Etheric body",
+            "spine_index": 18,
+            "spine_name": "OEBPS/xhtml/Chapter10.html",
+            "start_cfi": "/2/4/58/1:353",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "yellow"
+            },
+            "timestamp": "2025-05-12T01:15:55.785Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "10. Mindfulness of Physical Characteristics"
+            ],
+            "type": "highlight",
+            "uuid": "ZUgh9BitRLWPdLLRDxY8LQ"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/96/4/2/1:1",
+            "format": "EPUB",
+            "highlighted_text": "Dry out that which is past, let there be nothing for you in the future. If you do not grasp at anything in the present you will go about at peace. One who, in regard to this entire mind/body complex, has no cherishing of it as “mine,” and who does not grieve for what is non-existent truly suffers no loss in the world. For that person there is no thought of anything as “this is mine” or “this is another’s”; not finding any state of ownership, and realizing, “nothing is mine,” he does not grieve.7",
+            "spine_index": 18,
+            "spine_name": "OEBPS/xhtml/Chapter10.html",
+            "start_cfi": "/2/4/96/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "blue"
+            },
+            "timestamp": "2025-05-12T01:20:50.334Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "10. Mindfulness of Physical Characteristics"
+            ],
+            "type": "highlight",
+            "uuid": "MS2GH0s5cdInqwM7VPEFJg"
+        },
+        {
+            "book_id": 3,
+            "end_cfi": "/2/4/104/1:265",
+            "format": "EPUB",
+            "highlighted_text": "Those who believe in things can be helped through various kinds of practice, through skillful means—but those who fall into the abyss of emptiness find it almost impossible to re-emerge, since there seem to be no handholds, no steps, no gradual progression, nothing to do",
+            "notes": "The Abyss of Emptiness",
+            "spine_index": 18,
+            "spine_name": "OEBPS/xhtml/Chapter10.html",
+            "start_cfi": "/2/4/104/1:0",
+            "style": {
+                "kind": "color",
+                "type": "builtin",
+                "which": "blue"
+            },
+            "timestamp": "2025-05-12T01:22:03.832Z",
+            "toc_family_titles": [
+                "Mindfulness of the Body",
+                "10. Mindfulness of Physical Characteristics"
+            ],
+            "type": "highlight",
+            "uuid": "_0_eDOfFnOqCNeGHsMz3fA"
+        }
+    ],
+    "type": "calibre_annotation_collection",
+    "version": 1
+}
