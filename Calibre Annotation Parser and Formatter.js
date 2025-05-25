@@ -48,77 +48,6 @@ if (typeof require !== "undefined") {
 }
 
 /**
- * Represents a single annotation (original CSV parser context).
- * @typedef {object} Annotation
- * @property {string} bookTitle - The title of the book.
- * @property {string} author - The author of the book.
- * @property {string} highlightedText - The text that was highlighted.
- * @property {string} note - The user's note, if any.
- * @property {string} location - The location of the annotation in the book (e.g., page number, CFI).
- * @property {Date} timestamp - The date and time the annotation was made.
- * @property {string[]} [tags] - Any tags associated with the annotation.
- */
-
-/**
- * Parses raw annotation data from Calibre (CSV example).
- * This function is from the previous version and assumes CSV input.
- * @param {string} rawData - The raw string data containing annotations.
- * @param {string} [delimiter=';'] - The delimiter used to separate fields in a row.
- * @param {string} [tagDelimiter=','] - The delimiter used for tags within the tag field.
- * @returns {Annotation[]} An array of parsed annotation objects.
- */
-function parseCalibreAnnotationsCSV(
-  rawData,
-  delimiter = ";",
-  tagDelimiter = ","
-) {
-  if (typeof rawData !== "string" || rawData.trim() === "") {
-    throw new Error("Invalid input: rawData must be a non-empty string.");
-  }
-  const annotations = [];
-  const lines = rawData.trim().split("\n");
-
-  for (const line of lines) {
-    if (line.trim() === "") continue;
-
-    const parts = line.split(delimiter);
-    if (parts.length < 6) {
-      console.warn(`Skipping malformed CSV line: ${line}`);
-      continue;
-    }
-    try {
-      const annotation = {
-        bookTitle: parts[0]?.trim() || "Unknown Title",
-        author: parts[1]?.trim() || "Unknown Author",
-        highlightedText: parts[2]?.trim() || "",
-        note: parts[3]?.trim() || "",
-        location: parts[4]?.trim() || "Unknown Location",
-        timestamp: new Date(parts[5]?.trim() || Date.now()),
-        tags: parts[6]
-          ? parts[6]
-              .trim()
-              .split(tagDelimiter)
-              .map((tag) => tag.trim())
-              .filter((tag) => tag)
-          : [],
-      };
-      if (isNaN(annotation.timestamp.getTime())) {
-        console.warn(
-          `Invalid date format for CSV line: ${line}. Using current date.`
-        );
-        annotation.timestamp = new Date();
-      }
-      annotations.push(annotation);
-    } catch (error) {
-      console.error(
-        `Error parsing CSV line: "${line}". Error: ${error.message}`
-      );
-    }
-  }
-  return annotations;
-}
-
-/**
  * Helper function to check if a string might be a file path and read it.
  * @param {string} inputString - The input string (potentially a path).
  * @param {string} expectedExtension - The expected file extension (e.g., '.json', '.md').
@@ -152,9 +81,9 @@ function readFileContentOrReturnString(inputString, expectedExtension) {
 }
 
 /**
- * Formats Markdown text by wrapping Calibre annotations with blockquotes styled by color,
+ * Combines Calibre Highlight Markdown with Calibre annotations to create HTML with blockquotes styled by color,
  * and prepends "Note: " to notes if present. Headers are preserved outside blockquotes.
- * Accepts either raw strings or file paths (in Node.js) for JSON and Markdown input.
+ * Accepts either raw strings or file paths for Calibre Annotations (JSON) and Markdown input.
  * Optionally writes the output to a specified file path.
  *
  * @param {string} jsonInput - A JSON string OR a file path to a JSON file containing Calibre annotation data.
@@ -164,11 +93,7 @@ function readFileContentOrReturnString(inputString, expectedExtension) {
  * @returns {string} The new Markdown string with styled annotations and a prepended <style> tag.
  * @throws {Error} If JSON parsing fails or resolved input strings are invalid.
  */
-function formatAnnotationsToMarkdown(
-  jsonInput,
-  markdownInput,
-  writeFile = null
-) {
+function formatAnnotationsToHTML(jsonInput, markdownInput, writeFile = null) {
   let jsonAnnotationsString = readFileContentOrReturnString(jsonInput, ".json");
   const markdownString = readFileContentOrReturnString(markdownInput, ".md");
 
@@ -452,11 +377,11 @@ function formatAnnotationsToMarkdown(
     let filename = path.basename(outputPath);
     const ext = path.extname(filename);
 
-    if (ext.toLowerCase() !== ".md") {
+    if (ext.toLowerCase() !== ".html") {
       filename =
         (ext === ""
           ? filename
-          : filename.substring(0, filename.length - ext.length)) + ".md";
+          : filename.substring(0, filename.length - ext.length)) + ".html";
     }
     outputPath = path.join(dir, filename);
 
@@ -513,7 +438,7 @@ The Four Foundations
   try {
     // Simulate BOM for string literal test
     const jsonWithBOM = "\uFEFF" + sampleJsonString;
-    const formattedMarkdown = formatAnnotationsToMarkdown(
+    const formattedMarkdown = formatAnnotationsToHTML(
       jsonWithBOM,
       sampleMarkdownString
     );
@@ -534,7 +459,7 @@ The Four Foundations
   if (fs) {
     if (fs.existsSync(jsonFilePath) && fs.existsSync(markdownFilePath)) {
       try {
-        const formattedMarkdownFromFile = formatAnnotationsToMarkdown(
+        const formattedMarkdownFromFile = formatAnnotationsToHTML(
           jsonFilePath,
           markdownFilePath
         );
@@ -567,19 +492,15 @@ The Four Foundations
     try {
       const jsonToTest = "\uFEFF" + sampleJsonString;
       // Test writing to a file with .md extension
-      formatAnnotationsToMarkdown(
-        jsonToTest,
-        sampleMarkdownString,
-        outputFilePath
-      );
+      formatAnnotationsToHTML(jsonToTest, sampleMarkdownString, outputFilePath);
       // Test writing to a file with no extension (should add .md)
-      formatAnnotationsToMarkdown(
+      formatAnnotationsToHTML(
         jsonToTest,
         sampleMarkdownString,
         outputFilePathNoExt
       );
       // Test writing to a file with .txt extension (should change to .md)
-      formatAnnotationsToMarkdown(
+      formatAnnotationsToHTML(
         jsonToTest,
         sampleMarkdownString,
         outputFilePathWrongExt
@@ -603,10 +524,10 @@ The Four Foundations
 
 if (typeof require !== "undefined" && require.main === module) {
   //exampleFormatter();
-  formatAnnotationsToMarkdown(
+  formatAnnotationsToHTML(
     "/Users/stephenholsenbeck/Documents/Buddhism/Dharma Teacher Training/Reading Notes/Mindfulness by Joseph Goldstein/annotations_2025-05-13.json",
     "/Users/stephenholsenbeck/Documents/Buddhism/Dharma Teacher Training/Reading Notes/Mindfulness by Joseph Goldstein/annotations_2025-05-13.md",
-    "./output/annotations_output.md"
+    "./output/annotations_output.html"
   );
 }
 
