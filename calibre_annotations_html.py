@@ -20,7 +20,74 @@ def _read_file_or_return_string(input_data: str) -> str:
     except Exception as e:
         print(f"Error reading file {input_data}: {e}. Treating input as string content.")
         return input_data
+def sanitize_color(color):
+    """
+    Extract the hex code from a hexadecimal color
+    Args:
+        color: A hexadecimal color string (e.g., "#rrggbb").
 
+    Returns:
+        The hexadecimal color string with the #.
+    """
+    return re.sub(r'[^a-zA-Z0-9-]', '', color)
+def color_contrasting(hex_color):
+    """
+    Generates a contrasting hexadecimal color.
+
+    Args:
+        hex_color: A hexadecimal color string (e.g., "#rrggbb").
+
+    Returns:
+        A contrasting hexadecimal color string.
+    """
+    hex_color = hex_color.lstrip("#")
+    rgb = tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
+    contrasting_rgb = tuple(255 - c for c in rgb)
+    contrasting_hex = "#{:02x}{:02x}{:02x}".format(*contrasting_rgb)
+    return contrasting_hex
+
+def color_lighten(hex_color, factor=0.5):
+    """
+    Lightens a given hex color by a specified factor.
+
+    Args:
+        hex_color: The hex color code as a string (e.g., "#RRGGBB").
+        factor: The lightening factor (0.0-1.0, where 1.0 is fully white).
+
+    Returns:
+        A lighter hex color code as a string.
+    """
+    hex_color = hex_color.lstrip("#")
+    r = int(hex_color[0:2], 16)
+    g = int(hex_color[2:4], 16)
+    b = int(hex_color[4:6], 16)
+
+    r = int(r + (255 - r) * factor)
+    g = int(g + (255 - g) * factor)
+    b = int(b + (255 - b) * factor)
+
+    return "#{:02x}{:02x}{:02x}".format(r, g, b)
+
+def color_opacity(hex_color, opacity=1.0):
+    """
+    Adds opacity to a hex color string.
+
+    Args:
+        hex_color: Hex color string (e.g., "#RRGGBB" or "RRGGBB").
+        opacity: Float between 0.0 (transparent) and 1.0 (opaque).
+
+    Returns:
+        Hex color string with alpha channel (e.g., "#RRGGBBAA").
+    """
+    hex_color = hex_color.lstrip("#")
+    if len(hex_color) == 3:
+        # Expand short form (e.g., "abc" -> "aabbcc")
+        hex_color = ''.join([c*2 for c in hex_color])
+    if len(hex_color) != 6:
+        raise ValueError("Invalid hex color format")
+    alpha = int(round(opacity * 255))
+    return f"#{hex_color}{alpha:02x}"
+    
 def format_annotations_to_html(json_input: str, markdown_input: str, write_file: str = None) -> str:
     """
     Formats Markdown text by wrapping Calibre annotations with styled HTML blockquotes.
