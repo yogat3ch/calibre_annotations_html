@@ -134,8 +134,13 @@ def format_annotations_to_html(json_input: str, markdown_input: str, write_file:
             # The CFI key is constructed as it appears in the decoded Calibre link.
             cfi_key = f"/{ (ann['spine_index'] * 2) + 2 }{ ann['start_cfi'] }"
             cfi_to_annotation_map[cfi_key] = ann
-            if ann.get("style") and ann["style"].get("which"):
-                used_colors.add(ann["style"]["which"])
+            if ann.get("style"):
+                 if ann["style"].get("which"):
+                    used_colors.add(ann["style"]["which"])
+                 elif ann["style"].get("light"):
+                    used_colors.add(ann["style"].get("light"))
+                    
+           
 
     # Split markdown by '---' delimiter, keeping the delimiter for reconstruction
     rgx_split_delim = r'(\n-{3,}\n)'
@@ -199,7 +204,7 @@ def format_annotations_to_html(json_input: str, markdown_input: str, write_file:
         annotation_content_to_replace = '\n'.join(lines[first_non_header_line_idx:])
         
         # 2. Build the blockquote
-        color = json_annotation.get("style", {}).get("which", "default")
+        color = json_annotation.get("style", {}).get("which", json_annotation.get("style", {}).get("light", "default"))
         json_highlighted_text = json_annotation.get("highlighted_text", "")
         
         # Convert Markdown link to HTML <a> tag
@@ -226,7 +231,7 @@ def format_annotations_to_html(json_input: str, markdown_input: str, write_file:
         if note_for_blockquote.strip():
             blockquote_inner_content += ('\n' if not note_for_blockquote.startswith('\n') else '') + note_for_blockquote.rstrip()
             
-        blockquote_html = f'<blockquote class="bq-{color}">\n{blockquote_inner_content}\n</blockquote>'
+        blockquote_html = f'<blockquote class="bq-{sanitize_color(color)}">\n{blockquote_inner_content}\n</blockquote>'
         
         # Add the prefix (headers) and the new blockquote
         new_markdown_parts.append(prefix_content.rstrip() + ('\n\n' if prefix_content.strip() else '') + blockquote_html)
@@ -239,15 +244,19 @@ def format_annotations_to_html(json_input: str, markdown_input: str, write_file:
         used_colors.add("default")
         
     for color in sorted(list(used_colors)): # Sort for consistent output
-        sanitized_color = re.sub(r'[^a-zA-Z0-9-]', '', color)
+        sanitized_color = sanitize_color(color)
         if not sanitized_color: continue
         
-        border_color = sanitized_color if sanitized_color != "default" else "#cccccc"
+        border_color = color if sanitized_color != "default" else "#cccccc"
         bg_colors = {"yellow": "#fff9c4", "blue": "#e3f2fd", "green": "#e8f5e9", "red": "#ffebee", "default": "#f9f9f9"}
         link_colors = {"yellow": "#795548", "blue": "#0d47a1", "green": "#1b5e20", "red": "#b71c1c", "default": "#333333"}
         
-        bg_color = bg_colors.get(sanitized_color, "#f5f5f5")
-        link_color = link_colors.get(sanitized_color, "#333333")
+        bg_color = bg_colors.get(sanitized_color)
+        if bg_color == None:
+            bg_color = color_opacity(sanitized_color, opacity=0.5)
+        link_color = link_colors.get(sanitized_color)
+        if link_color == None:
+            link_color = color_contrasting(sanitized_color)
         
         style_lines.extend([
             f".bq-{sanitized_color} {{",
