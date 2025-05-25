@@ -222,7 +222,7 @@ def format_annotations_to_html(json_input: str, markdown_input: str, write_file:
         
         json_note = json_annotation.get("notes", "")
         if json_note and json_note.strip() != "" and actual_md_note_text.strip() != "":
-            note_for_blockquote = f"{leading_ws_for_note}<em>Note: </em>{actual_md_note_text}"
+            note_for_blockquote = f"{leading_ws_for_note}<br><em>Note: </em>{actual_md_note_text}"
         elif actual_md_note_text.strip() != "":
             note_for_blockquote = note_section_in_md
 
