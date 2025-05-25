@@ -71,14 +71,15 @@ def format_annotations_to_html(json_input: str, markdown_input: str, write_file:
                 used_colors.add(ann["style"]["which"])
 
     # Split markdown by '---' delimiter, keeping the delimiter for reconstruction
-    markdown_parts = re.split(r'(\n---\n)', markdown_string)
+    rgx_split_delim = r'(\n-{3,}\n)'
+    markdown_parts = re.split(rgx_split_delim, markdown_string)
     new_markdown_parts = []
     
     # Regex to find the calibre link and extract its text and URL
     link_regex = re.compile(r'\[(.*?)\]\((calibre:\/\/.*?open_at=epubcfi%28(.*?)%29)\)')
 
     for part in markdown_parts:
-        if part == '\n---\n':
+        if re.search(rgx_split_delim, part):
             new_markdown_parts.append(part)
             continue
         
@@ -201,7 +202,8 @@ def format_annotations_to_html(json_input: str, markdown_input: str, write_file:
         ])
     style_lines.append("</style>\n")
     final_output_string = "\n".join(style_lines) + "\n" + final_markdown
-
+    # Replace all lines matching `rgx_split_delim` with <hr> tags
+    final_output_string = re.sub(rgx_split_delim, "\n<hr>\n", final_output_string)
     # Write to file if path is provided
     if write_file and isinstance(write_file, str) and write_file.strip():
         output_path = write_file.strip()
