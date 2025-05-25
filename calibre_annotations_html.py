@@ -55,6 +55,8 @@ def format_annotations_to_html(json_input: str, markdown_input: str, write_file:
 
     json_annotation_list = data.get("annotations")
     if not isinstance(json_annotation_list, list):
+        json_annotation_list = data.get("highlights")
+    if not isinstance(json_annotation_list, list):
         raise ValueError('Invalid JSON structure: "annotations" array not found.')
 
     cfi_to_annotation_map = {}
