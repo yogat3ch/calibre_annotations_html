@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb34099-9b20-43b4-8e2b-e43fd3049a00" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Calibre Annotation Parser and Formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Calibre Annotation Parser and Formatter.js" afterDir="false" />
+    <list default="true" id="fcb34099-9b20-43b4-8e2b-e43fd3049a00" name="Changes" comment="Output for js parser is now html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calibre_annotations_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/calibre_annotations_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/annotations_styled.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/annotations_styled.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,64 @@
       <option name="presentableId" value="Default" />
       <updated>1748180658445</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add pycharm config files">
+      <option name="closed" value="true" />
+      <created>1748181625977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748181625977</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add vscode workspace">
+      <option name="closed" value="true" />
+      <created>1748181641496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748181641496</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Python version">
+      <option name="closed" value="true" />
+      <created>1748181664289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748181664289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update gitignore for python and pycharm">
+      <option name="closed" value="true" />
+      <created>1748181678629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748181678629</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New html output file">
+      <option name="closed" value="true" />
+      <created>1748181688791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748181688791</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Output for js parser is now html">
+      <option name="closed" value="true" />
+      <created>1748181804022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748181804022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add pycharm config files" />
+    <MESSAGE value="Add vscode workspace" />
+    <MESSAGE value="Add Python version" />
+    <MESSAGE value="Update gitignore for python and pycharm" />
+    <MESSAGE value="New html output file" />
+    <MESSAGE value="Output for js parser is now html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Output for js parser is now html" />
   </component>
 </project>
